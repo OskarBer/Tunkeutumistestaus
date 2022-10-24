@@ -4,7 +4,7 @@ Valitsin käyttöön Ethernet interfacin ja aloin seurata verkkoliikennettä
 
 Avasin koneeltani cmd:n ja lähetin kyselyn komennolla "ping is.fi" iltasanomien verkkosivuille
 
-Pysäytin Wiresharkin seurannan ja etsin ping paketin. Pingin lähettämä paketti oli
+Pysäytin Wiresharkin seurannan ja etsin ping paketin. Pingin lähettämä paketti protokolla oli
 "ICMPv6"
 
 Ping oli tuottanut kaksi pakettia lähtevän ja takaisin tulevan, selvitin sen 
