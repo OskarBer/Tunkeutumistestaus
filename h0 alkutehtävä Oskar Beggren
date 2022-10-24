@@ -1,0 +1,17 @@
+Asensin Wireshark 3, koska uusin versio 4 ei toiminut
+
+Valitsin käyttöön Ethernet interfacin ja aloin seurata verkkoliikennettä
+
+Avasin koneeltani cmd:n ja lähetin kyselyn komennolla "ping is.fi" iltasanomien verkkosivuille
+
+Pysäytin Wiresharkin seurannan ja etsin ping paketin. Pingin lähettämä paketti oli
+"ICMPv6"
+
+Ping oli tuottanut kaksi pakettia lähtevän ja takaisin tulevan, selvitin sen 
+menemällä kumpaankin pakettiin ja katsomalla lisätietoja kohdassta "Ethernet2 " eli verkkoni
+
+Näin tiedoissa, että ensimmäinen paketti jonka ping oli lähtenyt emolevyltäni "ASUSTekC_3*****" ja lähtenyt
+Ciscon reitittimeen "CiscoSPV_5******". 
+
+Wiresharkin kautta sain myös pingin tarkan vastausajan, mikä oli ollut "9.510 ms", kun taas
+cmd kertoi että vastaus aika oli "9 ms"
