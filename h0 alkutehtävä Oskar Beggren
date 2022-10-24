@@ -8,10 +8,11 @@ Pysäytin Wiresharkin seurannan ja etsin ping paketin. Pingin lähettämä paket
 "ICMPv6"
 
 Ping oli tuottanut kaksi pakettia lähtevän ja takaisin tulevan, selvitin sen 
-menemällä kumpaankin pakettiin ja katsomalla lisätietoja kohdassta "Ethernet2 " eli verkkoni
+menemällä kumpaankin pakettiin ja katsomalla lisätietoja kohdassta "Ethernet2 " eli verkkoni interface
 
-Näin tiedoissa, että ensimmäinen paketti jonka ping oli lähtenyt emolevyltäni "ASUSTekC_3*****" ja lähtenyt
+Näin tiedoissa, että ensimmäinen paketti jonka ping lähetti oli lähtenyt emolevyltäni "ASUSTekC_3*****" ja mennyt
 Ciscon reitittimeen "CiscoSPV_5******". 
 
 Wiresharkin kautta sain myös pingin tarkan vastausajan, mikä oli ollut "9.510 ms", kun taas
-cmd kertoi että vastaus aika oli "9 ms"
+cmd kertoi että vastausaika oli "9 ms"
+
